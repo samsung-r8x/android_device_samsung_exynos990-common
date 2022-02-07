@@ -42,6 +42,9 @@ static inline const char* BtmGetDefaultName()
     if (strstr(product_device, "z3sxxx"))
         return "Galaxy S20 Ultra 5G";
 
+    if (strstr(product_device, "r8sxx"))
+        return "Galaxy S20 FE";
+
     // Fallback to Default
     return "Samsung Galaxy";
 }
